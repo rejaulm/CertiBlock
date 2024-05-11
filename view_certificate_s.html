@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CertiBlock</title>
+    <link rel="stylesheet" href="view_certificate_s.css">
+
+</head>
+<body>
+
+    <div id="name" style="display: none;"></div>
+
+    <div id="buttons" style="display: none;">
+        <label for="address">Certificate ID:</label>
+        <input type="text" id="address" placeholder="0x000000...">    
+        
+        <button id="issueCerti" onclick="submit()">Submit</button>
+    </div>
+    <div id="tb" style="display: none;">
+    <table id="myTable">
+            <tr>
+            <th>Student Name</th>
+            <th>College Name</th> 
+            <th>Roll</th>
+            <th>Course</th>
+            <th>Grade</th>
+            <th>Year</th>
+            </tr>
+            <tr>
+            <td id="c1"></td>
+            <td id="c2"></td>
+            <td id="c3"></td>
+            <td id="c4"></td>
+            <td id="c5"></td>
+            <td id="c6"></td>
+            </tr>   
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>  
+    <script src="view_certificate_s.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.10.4/dist/web3.min.js"></script>
+    
+</body>
+</html>
